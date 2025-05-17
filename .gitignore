@@ -8,6 +8,8 @@ ENV/
 *.env
 .env.*
 secrets.env
+.env
+
 
 # Arquivos de cache Python
 __pycache__/
