@@ -1,0 +1,55 @@
+# Arquivos de ambiente virtual
+.venv/
+env/
+venv/
+ENV/
+
+# Arquivos de configuração locais
+*.env
+.env.*
+secrets.env
+
+# Arquivos de cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Pastas e arquivos do Colab / Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Arquivos temporários e de log
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Arquivos gerados (relatórios, outputs, etc.)
+*.md
+relatorio_*.md
+
+# Configurações específicas de IDEs
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Arquivos de pacotes
+*.egg-info/
+dist/
+build/
+
+# Excluir arquivos grandes ou downloads (ex: datasets brutos)
+data/
+datasets/
+downloads/
+*.zip
+*.tar.gz
